@@ -1,0 +1,22 @@
+{
+  "name": "catatan-kantong",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catatan pemasukan dan pengeluaran harian dengan batas budget dan peringatan.",
+  "scripts": {
+    "fonts": "node scripts/copy-fonts.mjs",
+    "assets": "capacitor-assets generate --android",
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/app": "latest",
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "latest",
+    "@capacitor/cli": "latest",
+    "@fontsource/plus-jakarta-sans": "latest",
+    "@fontsource/sora": "latest"
+  }
+}
